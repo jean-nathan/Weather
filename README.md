@@ -27,7 +27,7 @@ Este projeto é um aplicativo de clima que permite aos usuários buscar as condi
 2. Navegue até o diretório do projeto:
 
    ```bash
-   cd weather-app
+   cd weather
    ```
 
 3. Abra o `index.html` no seu navegador.
