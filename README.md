@@ -52,15 +52,17 @@ Este projeto é um aplicativo de clima que permite aos usuários buscar as condi
 
 ## Imagens do Weather:
 
+## Imagens do Weather:
+
 Barra de busca para inserir o endereço:
 
-<img width="655" alt="image" src="https://github.com/user-attachments/assets/191d712f-7622-4641-9838-884e08a7caca">
+<img width="400" height="300" alt="search bar" src="https://github.com/user-attachments/assets/191d712f-7622-4641-9838-884e08a7caca">
 
 Clima do endereço inserido:
 
-<img width="821" alt="image" src="https://github.com/user-attachments/assets/5b5b0c2c-2dd1-47fd-b3a9-f8c297e01382">
+<img width="400" height="300" alt="weather details" src="https://github.com/user-attachments/assets/5b5b0c2c-2dd1-47fd-b3a9-f8c297e01382">
 
 Erro 404 quando não encontrar o endereço inserido:
 
-<img width="752" alt="image" src="https://github.com/user-attachments/assets/a2f06205-5cc6-48a7-927e-7daf0d5cd148">
-```
+<img width="400" height="300" alt="error 404" src="https://github.com/user-attachments/assets/a2f06205-5cc6-48a7-927e-7daf0d5cd148">
+
