@@ -14,7 +14,7 @@ function reset() {
 }
 
 function searchWeather() {
-  const APIKey = "Sua API Key";
+  const APIKey = "3a9c280aa7547eda772a7f8d907ad2e1";
   const city = input.value;
 
   if (city === "") {
