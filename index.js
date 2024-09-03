@@ -83,18 +83,20 @@ function searchWeather() {
 
       setTimeout(() => {
         reset();
-      }, "7000");
+      }, "5000");
     })
     .catch((err) => {
+      alert(
+        "Você precisa configurar sua API Key ou houve um erro inesperado.."
+      );
       console.error(err);
     });
 }
 
-search.addEventListener("focus", reset);
 search.addEventListener("click", searchWeather);
-
 input.addEventListener("keyup", (event) => {
   if (event.key === "Enter") {
     searchWeather();
   }
 });
+input.addEventListener("focus", reset);
