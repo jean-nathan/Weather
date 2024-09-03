@@ -62,11 +62,12 @@ Este projeto é um aplicativo de clima que permite aos usuários buscar as condi
 - Dados do clima fornecidos por [OpenWeatherMap](https://openweathermap.org/).
 - Ícones de [FontAwesome](https://fontawesome.com/).
 
+---
 ## Imagens do Weather:
 
 Barra de busca para inserir o endereço:
-<img width="682" alt="image" src="https://github.com/user-attachments/assets/0ebf82b8-62a9-4321-81ef-79273088daae">
-
+<img width="655" alt="image" src="https://github.com/user-attachments/assets/191d712f-7622-4641-9838-884e08a7caca">
+-
 Clima do endereço inserido:
 <img width="821" alt="image" src="https://github.com/user-attachments/assets/5b5b0c2c-2dd1-47fd-b3a9-f8c297e01382">
 
