@@ -19,27 +19,36 @@ Este projeto é um aplicativo de clima que permite aos usuários buscar as condi
 ## Como Usar
 
 1. Clone o repositório:
-    ```bash
-    git clone https://github.com/seu-usuario/weather-app.git
-    ```
+
+   ```bash
+   git clone https://github.com/seu-usuario/weather-app.git
+   ```
 
 2. Navegue até o diretório do projeto:
-    ```bash
-    cd weather-app
-    ```
+
+   ```bash
+   cd weather-app
+   ```
 
 3. Abra o `index.html` no seu navegador.
 
-4. Insira o nome de uma cidade na caixa de busca e clique no ícone de busca ou pressione Enter.
+4. **Obtenha sua chave da API:**
 
-5. Os detalhes do clima para a localização inserida serão exibidos.
+   - Acesse [OpenWeatherMap](https://openweathermap.org/).
+   - Crie uma conta ou faça login.
+   - Navegue até a seção de API Keys no painel de usuário e gere uma nova chave da API.
 
-## Chave da API
+5. **Configure a chave da API no código:**
 
-Para rodar o projeto, você precisa de uma chave da API do OpenWeatherMap. Substitua o placeholder no arquivo JavaScript pela sua chave da API:
-```javascript
-const APIKey = "sua-chave-da-api";
-```
+   - Abra o arquivo `index.js`.
+   - Substitua o placeholder `"Sua API Key"` pela sua chave da API obtida no passo anterior:
+     ```javascript
+     const APIKey = "sua-chave-da-api";
+     ```
+
+6. Insira o nome de uma cidade na caixa de busca e clique no ícone de busca ou pressione Enter.
+
+7. Os detalhes do clima para a localização inserida serão exibidos.
 
 ## Estrutura do Projeto
 
@@ -52,11 +61,3 @@ const APIKey = "sua-chave-da-api";
 
 - Dados do clima fornecidos por [OpenWeatherMap](https://openweathermap.org/).
 - Ícones de [FontAwesome](https://fontawesome.com/).
-
-## Licença
-
-Este projeto é licenciado sob a Licença MIT.
-
----
-
-Sinta-se à vontade para ajustar o README conforme necessário para atender às suas necessidades.
