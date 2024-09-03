@@ -32,23 +32,9 @@ Este projeto é um aplicativo de clima que permite aos usuários buscar as condi
 
 3. Abra o `index.html` no seu navegador.
 
-4. **Obtenha sua chave da API:**
+4. Insira o nome de uma cidade na caixa de busca e clique no ícone de busca ou pressione Enter.
 
-   - Acesse [OpenWeatherMap](https://openweathermap.org/).
-   - Crie uma conta ou faça login.
-   - Navegue até a seção de API Keys no painel de usuário e gere uma nova chave da API.
-
-5. **Configure a chave da API no código:**
-
-   - Abra o arquivo `index.js`.
-   - Substitua o placeholder `"Sua API Key"` pela sua chave da API obtida no passo anterior:
-     ```javascript
-     const APIKey = "sua-chave-da-api";
-     ```
-
-6. Insira o nome de uma cidade na caixa de busca e clique no ícone de busca ou pressione Enter.
-
-7. Os detalhes do clima para a localização inserida serão exibidos.
+5. Os detalhes do clima para a localização inserida serão exibidos.
 
 ## Estrutura do Projeto
 
@@ -63,6 +49,7 @@ Este projeto é um aplicativo de clima que permite aos usuários buscar as condi
 - Ícones de [FontAwesome](https://fontawesome.com/).
 
 ---
+
 ## Imagens do Weather:
 
 Barra de busca para inserir o endereço:
@@ -76,3 +63,4 @@ Clima do endereço inserido:
 Erro 404 quando não encontrar o endereço inserido:
 
 <img width="752" alt="image" src="https://github.com/user-attachments/assets/a2f06205-5cc6-48a7-927e-7daf0d5cd148">
+```
