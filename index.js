@@ -81,9 +81,7 @@ function searchWeather() {
       weatherDetails.classList.add("fadeIn");
       container.style.height = "590px";
 
-      setTimeout(() => {
-        reset();
-      }, "5000");
+
     })
     .catch((err) => {
       alert(

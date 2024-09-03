@@ -16,49 +16,50 @@ body {
 
 .container {
   position: relative;
-  width: 450px;
-  height: 105px;
+  width: 90vw;
+  max-width: 28rem;
+  height: auto;
   background: #fff;
-  padding: 28px 32px;
-  overflow: hidden; /* evita que o conteudo dentro nao estoure pra fora do width/height definido */
-  border-radius: 18px;
+  padding: 2rem;
+  overflow: hidden;
+  border-radius: 1rem;
   font-family: "Roboto", sans-serif;
-  transition: 0.6s ease-out; /* analisar */
+  transition: 0.6s ease-out;
 }
 
 .search-box {
   width: 100%;
   height: min-content;
   display: flex;
-  align-items: center; /* observar */
+  align-items: center;
   justify-content: space-between;
 }
 
 .search-box input {
   color: #06283d;
   width: 80%;
-  font-size: 24;
+  font-size: 1.2rem;
   font-weight: 500;
   text-transform: uppercase;
-  padding-left: 32px;
+  padding-left: 2rem;
 }
 
 .search-box input::placeholder {
-  font-size: 500;
+  font-size: 1.2rem;
   font-weight: 500;
   color: #06283d;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 
 .search-box button {
   cursor: pointer;
-  width: 50px;
-  height: 50px;
+  width: 3rem;
+  height: 3rem;
   color: #06283d;
   background: #dff6ff;
   border-radius: 50%;
-  font-size: 22px;
-  transition: 0.4s ease; /* estudar */
+  font-size: 1.375rem;
+  transition: 0.4s ease;
 }
 
 .search-box button:hover {
@@ -69,7 +70,7 @@ body {
 .search-box i {
   position: absolute;
   color: #06283d;
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 
 .weather-box {
@@ -78,7 +79,7 @@ body {
 
 .weather-box img {
   width: 60%;
-  margin-top: 30px;
+  margin-top: 2rem;
 }
 
 .weather-box .temperature {
@@ -86,19 +87,19 @@ body {
   color: #06283d;
   font-size: 4rem;
   font-weight: 800;
-  margin-top: 30px;
-  margin-left: -16px;
+  margin-top: 2rem;
+  margin-left: -1rem;
 }
 
 .weather-box .temperature span {
   position: absolute;
-  margin-left: 4px;
+  margin-left: 0.25rem;
   font-size: 1.5rem;
 }
 
 .weather-box .description {
   color: #06283d;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 500;
   text-transform: capitalize;
 }
@@ -107,7 +108,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 2rem;
 }
 
 .weather-details .humidity,
@@ -115,42 +116,42 @@ body {
   display: flex;
   align-items: center;
   width: 50%;
-  height: 100px;
+  height: 6rem;
 }
 
 .weather-details .humidity {
-  padding-left: 20px;
+  padding-left: 1.25rem;
   justify-content: flex-start;
 }
 
 .weather-details .wind {
-  padding-right: 20px;
+  padding-right: 1.25rem;
   justify-content: flex-end;
 }
 
 .weather-details i {
   color: #06283d;
-  font-size: 26px;
-  margin-right: 10px;
-  margin-top: 6px;
+  font-size: 1.625rem;
+  margin-right: 0.625rem;
+  margin-top: 0.375rem;
 }
 
 .weather-details span {
   color: #06283d;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 500;
 }
 
 .weather-details p {
   color: #06283d;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
 }
 
 .not-found {
   width: 100%;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 3.125rem;
   scale: 0;
   opacity: 0;
   display: none;
@@ -162,9 +163,9 @@ body {
 
 .not-found p {
   color: #06283d;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 500;
-  margin-top: 12px;
+  margin-top: 0.75rem;
 }
 
 .weather-box,
@@ -182,5 +183,52 @@ body {
   to {
     scale: 1;
     opacity: 1;
+  }
+}
+
+@media (max-width: 25rem) {
+  .container {
+    width: 80vw;
+    padding: 1.5rem;
+  }
+
+  .search-box button {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.125rem;
+  }
+
+  .weather-box img {
+    width: 50%;
+    margin-top: 1.5rem;
+  }
+
+  .weather-box .temperature {
+    font-size: 3rem;
+    margin-top: 1.5rem;
+  }
+
+  .weather-box .temperature span {
+    font-size: 1.2rem;
+  }
+
+  .weather-box .description {
+    font-size: 1.125rem;
+  }
+
+  .weather-details {
+    flex-direction: column;
+    margin-top: 1.5rem;
+  }
+
+  .weather-details .humidity,
+  .weather-details .wind {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 0.625rem;
+  }
+
+  .not-found p {
+    font-size: 1.125rem;
   }
 }
