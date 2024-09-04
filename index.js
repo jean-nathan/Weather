@@ -79,7 +79,7 @@ function searchWeather() {
       weatherDetails.style.display = "";
       weatherBox.classList.add("fadeIn");
       weatherDetails.classList.add("fadeIn");
-      container.style.height = "55vh";
+      container.style.height = "60vh";
     })
     .catch((err) => {
       alert(
