@@ -10,7 +10,7 @@ function reset() {
   weatherBox.style.display = "none";
   weatherDetails.style.display = "none";
   erro404.style.display = "none";
-  container.style.height = "10vh";
+  container.style.height = "105px";
 }
 
 function searchWeather() {
@@ -79,7 +79,11 @@ function searchWeather() {
       weatherDetails.style.display = "";
       weatherBox.classList.add("fadeIn");
       weatherDetails.classList.add("fadeIn");
-      container.style.height = "60vh";
+      container.style.height = "590px";
+
+      setTimeout(() => {
+        reset();
+      }, "5000");
     })
     .catch((err) => {
       alert(
