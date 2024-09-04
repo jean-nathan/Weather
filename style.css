@@ -223,7 +223,6 @@ body {
   .weather-details .humidity,
   .weather-details .wind {
     width: 100%;
-    justify-content: center;
     margin-bottom: 0.625rem;
   }
 
