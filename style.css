@@ -39,7 +39,7 @@ body {
   width: 80%;
   font-size: 24;
   font-weight: 500;
-  text-transform: uppercase;
+  text-transform: initial ;
   padding-left: 32px;
 }
 
@@ -47,7 +47,7 @@ body {
   font-size: 500;
   font-weight: 500;
   color: #06283d;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 
 .search-box button {
