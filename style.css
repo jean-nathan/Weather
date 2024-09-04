@@ -39,7 +39,7 @@ body {
   width: 80%;
   font-size: 24;
   font-weight: 500;
-  text-transform: initial ;
+  text-transform: initial;
   padding-left: 32px;
 }
 
@@ -188,6 +188,7 @@ body {
 @media (max-width: 610px) {
   body {
     margin: 0px 20px;
+    overflow-y: hidden;
   }
 
   .search-box input {
