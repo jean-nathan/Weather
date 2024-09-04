@@ -193,8 +193,7 @@ html {
   }
 
   .container {
-    position: relative;
-    width: 350px;
+    width: auto;
   }
 
   .search-box input {
