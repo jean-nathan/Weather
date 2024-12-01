@@ -2,7 +2,7 @@
 
 Este projeto é um aplicativo de clima que permite aos usuários buscar as condições atuais do clima em qualquer cidade. O aplicativo exibe a temperatura, a descrição do clima, a umidade e a velocidade do vento usando dados obtidos da API OpenWeatherMap.
 
-## Funcionalidades:
+## Funcionalidades
 
 - **Buscar Clima**: Insira o nome de uma cidade para obter as informações atuais do clima.
 - **Detalhes do Clima**: Exibe a temperatura em Celsius, uma descrição do clima, porcentagem de umidade e velocidade do vento.
